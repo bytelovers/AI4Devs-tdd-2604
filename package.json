@@ -5,6 +5,9 @@
   "prisma": {
     "schema": "backend/prisma/schema.prisma"
   },
+  "scripts": {
+    "test": "pnpm --filter backend test && pnpm --filter frontend test"
+  },
   "devDependencies": {
   }
 }
